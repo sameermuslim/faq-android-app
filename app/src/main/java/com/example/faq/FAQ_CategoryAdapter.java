@@ -70,6 +70,7 @@ class FAQ_CategoryAdapter extends RecyclerView.Adapter<FAQ_CategoryAdapter.ViewH
 //        holder.clickTasbihItem(id, category, count, total_count);
 //        holder.edit_icon_onClick(id, count, arabic, pashto, farsi,english,fazilat, total_count);
 //        holder.delete_icon_OnClick(id);
+// boolean
 
     }
 
