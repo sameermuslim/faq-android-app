@@ -101,7 +101,7 @@ public class ScrollingActivity extends AppCompatActivity implements
         mFAQListView.setAdapter(mFAQAdapter);
 
 
-
+        // git add
         //  getSupportLoaderManager().initLoader(121, null,  AzkarActivity.this);
         LoaderManager.getInstance(this).initLoader(121, null, this);
 
