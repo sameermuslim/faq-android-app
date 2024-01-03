@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Single List Item Design -->
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   android:layout_marginStart="5dp"
+    android:textSize="16sp"
+    android:textStyle="bold" >
+
+    <TextView
+        android:id="@+id/ques_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:paddingTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/large_text"
+        android:lines="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="3dp"/>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="15sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/right_arrw" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
