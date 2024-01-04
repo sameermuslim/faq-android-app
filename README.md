@@ -23,8 +23,23 @@ An Android app built in Java for displaying frequently asked questions. The app 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+<div style="display: flex; justify-content: space-between;">
+
+  <div style="flex-basis: 48%;">
+    <strong>List of FAQs:</strong>
+    The main screen displays a list of frequently asked questions (FAQs) for users to browse.
+    <br>
+    <img src="Screenshot_1.png" alt="Sticky Wall" width="100%">
+  </div>
+
+  <div style="flex-basis: 48%;">
+    <strong>FAQ Details:</strong>
+    When a user clicks on a specific FAQ, the app navigates to a detailed view providing more information about the selected FAQ.
+    <br>
+    <img src="Screenshot_2.png" alt="Sidebar" width="100%">
+  </div>
+
+</div>
 
 ## Contributions
 
