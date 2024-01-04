@@ -28,7 +28,7 @@ An Android app built in Java for displaying frequently asked questions. The app 
   <div style="flex-basis: 48%;">
     <strong>List of FAQs:</strong>
     The main screen displays a list of frequently asked questions (FAQs) for users to browse.
-    <br>
+    <br> <br>
     <img src="Screenshot_1.png" alt="Sticky Wall" width="100%">
   </div>
 
